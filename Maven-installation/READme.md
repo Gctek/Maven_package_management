@@ -40,7 +40,15 @@ sudo mv apache-maven-3.9.0/ maven
 vi ~/.bash_profile  # and add the lines below
 export M2_HOME=/opt/maven
 export PATH=$PATH:$M2_HOME/bin
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+fi
+
+# User specific environment and startup programs
+
 ```
+
 ## .#Step4) Refresh the profile file and Verify if maven is running
 ```sh
 source ~/.bash_profile
